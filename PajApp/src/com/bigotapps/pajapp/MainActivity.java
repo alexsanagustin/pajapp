@@ -3,6 +3,7 @@ package com.bigotapps.pajapp;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -49,6 +50,7 @@ public class MainActivity extends Activity implements SensorEventListener {
 	public long startTime;
 	public long duration;
 	public long lastChange;
+
 	
 	
 	@Override
